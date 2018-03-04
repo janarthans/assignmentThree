@@ -1,0 +1,4 @@
+Assignment 3
+<button (click)="onDisplayDetails()">Display Details</button>
+<p *ngIf="buttonToggle">My Secure Content</p>
+<p *ngFor="let count of myArray" [ngStyle]="{backgroundColor : (count >= 5) ? getBackColor() : ''}" [ngClass]="{makeWhite : count >= 5}">{{count}}</p>
